@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C34F29A1DD566E000891910 /* StoredMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C34F2981DD566E000891910 /* StoredMusic.xcdatamodeld */; };
+		3C34F29C1DD578BE00891910 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34F29B1DD578BE00891910 /* HomeViewController.swift */; };
+		3C34F29E1DD5799000891910 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34F29D1DD5799000891910 /* TableViewController.swift */; };
+		3C34F2A01DD579B300891910 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C34F29F1DD579B300891910 /* TestViewController.swift */; };
+		3C3F8B311DD59034005FF52B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F8B2F1DD59034005FF52B /* Music.swift */; };
+		3C3F8B321DD59034005FF52B /* Music+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F8B301DD59034005FF52B /* Music+CoreDataProperties.swift */; };
+		3C3F8B341DD59876005FF52B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F8B331DD59876005FF52B /* TableViewCell.swift */; };
+		3C9535211DD7F88700C6F20D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9535201DD7F88700C6F20D /* Alert.swift */; };
+		3CD09DD21DD7E15D00BF597D /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD09DD11DD7E15D00BF597D /* SpeechKit.framework */; };
+		3CF0B3351DD5C72800C1FEE9 /* TrygetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF0B3341DD5C72800C1FEE9 /* TrygetViewController.swift */; };
+		3CFAA3D71DD29F0E00E641BB /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFAA3D61DD29F0E00E641BB /* StartViewController.swift */; };
+		3CFAA3D91DD2A27E00E641BB /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFAA3D81DD2A27E00E641BB /* Wave.swift */; };
+		BD7B781781BA08E6B38EF45F /* Pods_Sensor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D1A22B66F4F1AA6B2FE079 /* Pods_Sensor.framework */; };
+		F80C15BC1DADB7C100D90DA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C15BB1DADB7C100D90DA8 /* AppDelegate.swift */; };
+		F80C15C11DADB7C100D90DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80C15BF1DADB7C100D90DA8 /* Main.storyboard */; };
+		F80C15C61DADB7C100D90DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80C15C51DADB7C100D90DA8 /* Assets.xcassets */; };
+		F80C15C91DADB7C100D90DA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80C15C71DADB7C100D90DA8 /* LaunchScreen.storyboard */; };
+		F80C15D41DADB7C100D90DA8 /* SensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C15D31DADB7C100D90DA8 /* SensorTests.swift */; };
+		F80C15DF1DADB7C100D90DA8 /* SensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C15DE1DADB7C100D90DA8 /* SensorUITests.swift */; };
+		F80C15ED1DADB7D900D90DA8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F80C15EC1DADB7D900D90DA8 /* Podfile */; };
+		F80C15EF1DADB8DD00D90DA8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80C15EE1DADB8DD00D90DA8 /* SwiftyJSON.framework */; };
+		F80C15F11DADB94D00D90DA8 /* SwiftChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80C15F01DADB94D00D90DA8 /* SwiftChart.framework */; };
+		F80C15F31DADBA5000D90DA8 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C15F21DADBA5000D90DA8 /* ColorViewController.swift */; };
+		F8A44CAC1DC581010027EC46 /* 11.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44C9D1DC581010027EC46 /* 11.wav */; };
+		F8A44CAD1DC581010027EC46 /* 12.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44C9E1DC581010027EC46 /* 12.wav */; };
+		F8A44CAE1DC581010027EC46 /* 13.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44C9F1DC581010027EC46 /* 13.wav */; };
+		F8A44CAF1DC581010027EC46 /* 14.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44CA01DC581010027EC46 /* 14.wav */; };
+		F8A44CB01DC581010027EC46 /* 15.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44CA11DC581010027EC46 /* 15.wav */; };
+		F8A44CB11DC581010027EC46 /* 21.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44CA21DC581010027EC46 /* 21.wav */; };
+		F8A44CB21DC581010027EC46 /* 22.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44CA31DC581010027EC46 /* 22.wav */; };
+		F8A44CB31DC581010027EC46 /* 23.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44CA41DC581010027EC46 /* 23.wav */; };
+		F8A44CB41DC581010027EC46 /* 24.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44CA51DC581010027EC46 /* 24.wav */; };
+		F8A44CB51DC581010027EC46 /* 25.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44CA61DC581010027EC46 /* 25.wav */; };
+		F8A44CB61DC581010027EC46 /* 31.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44CA71DC581010027EC46 /* 31.wav */; };
+		F8A44CB71DC581010027EC46 /* 32.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44CA81DC581010027EC46 /* 32.wav */; };
+		F8A44CB81DC581010027EC46 /* 33.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44CA91DC581010027EC46 /* 33.wav */; };
+		F8A44CB91DC581010027EC46 /* 34.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44CAA1DC581010027EC46 /* 34.wav */; };
+		F8A44CBA1DC581010027EC46 /* 35.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8A44CAB1DC581010027EC46 /* 35.wav */; };
+		F8B1B28D1DAE2D0000536D5F /* SwiftChart-0.2.2 in Resources */ = {isa = PBXBuildFile; fileRef = F8B1B28C1DAE2D0000536D5F /* SwiftChart-0.2.2 */; };
+		FEF3594F1DCD714C008849B6 /* gestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF3594E1DCD714C008849B6 /* gestureController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F80C15D01DADB7C100D90DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80C15B01DADB7C100D90DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80C15B71DADB7C100D90DA8;
+			remoteInfo = Sensor;
+		};
+		F80C15DB1DADB7C100D90DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80C15B01DADB7C100D90DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80C15B71DADB7C100D90DA8;
+			remoteInfo = Sensor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D7168598EB70B6B0257C84D /* Pods-Sensor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sensor/Pods-Sensor.debug.xcconfig"; sourceTree = "<group>"; };
+		3C34F2991DD566E000891910 /* StoredMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StoredMusic.xcdatamodel; sourceTree = "<group>"; };
+		3C34F29B1DD578BE00891910 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3C34F29D1DD5799000891910 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3C34F29F1DD579B300891910 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		3C3F8B2F1DD59034005FF52B /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		3C3F8B301DD59034005FF52B /* Music+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Music+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3C3F8B331DD59876005FF52B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3C9535201DD7F88700C6F20D /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		3CD09DD11DD7E15D00BF597D /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
+		3CF0B3341DD5C72800C1FEE9 /* TrygetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrygetViewController.swift; sourceTree = "<group>"; };
+		3CFAA3D61DD29F0E00E641BB /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		3CFAA3D81DD2A27E00E641BB /* Wave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		7B055930E9684F155E2D5190 /* Pods-Sensor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sensor/Pods-Sensor.release.xcconfig"; sourceTree = "<group>"; };
+		D6D1A22B66F4F1AA6B2FE079 /* Pods_Sensor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sensor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80C15B81DADB7C100D90DA8 /* Sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80C15BB1DADB7C100D90DA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F80C15C01DADB7C100D90DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F80C15C51DADB7C100D90DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F80C15C81DADB7C100D90DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F80C15CA1DADB7C100D90DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80C15CF1DADB7C100D90DA8 /* SensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80C15D31DADB7C100D90DA8 /* SensorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorTests.swift; sourceTree = "<group>"; };
+		F80C15D51DADB7C100D90DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80C15DA1DADB7C100D90DA8 /* SensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80C15DE1DADB7C100D90DA8 /* SensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorUITests.swift; sourceTree = "<group>"; };
+		F80C15E01DADB7C100D90DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80C15EC1DADB7D900D90DA8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F80C15EE1DADB8DD00D90DA8 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Sensor-cejcszhdgkdrchadqdtrwbanahum/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		F80C15F01DADB94D00D90DA8 /* SwiftChart.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftChart.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Sensor-cejcszhdgkdrchadqdtrwbanahum/Build/Products/Debug-iphonesimulator/SwiftChart/SwiftChart.framework"; sourceTree = "<group>"; };
+		F80C15F21DADBA5000D90DA8 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		F8A44C9D1DC581010027EC46 /* 11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 11.wav; sourceTree = "<group>"; };
+		F8A44C9E1DC581010027EC46 /* 12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 12.wav; sourceTree = "<group>"; };
+		F8A44C9F1DC581010027EC46 /* 13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 13.wav; sourceTree = "<group>"; };
+		F8A44CA01DC581010027EC46 /* 14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 14.wav; sourceTree = "<group>"; };
+		F8A44CA11DC581010027EC46 /* 15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 15.wav; sourceTree = "<group>"; };
+		F8A44CA21DC581010027EC46 /* 21.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 21.wav; sourceTree = "<group>"; };
+		F8A44CA31DC581010027EC46 /* 22.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 22.wav; sourceTree = "<group>"; };
+		F8A44CA41DC581010027EC46 /* 23.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 23.wav; sourceTree = "<group>"; };
+		F8A44CA51DC581010027EC46 /* 24.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 24.wav; sourceTree = "<group>"; };
+		F8A44CA61DC581010027EC46 /* 25.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 25.wav; sourceTree = "<group>"; };
+		F8A44CA71DC581010027EC46 /* 31.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 31.wav; sourceTree = "<group>"; };
+		F8A44CA81DC581010027EC46 /* 32.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 32.wav; sourceTree = "<group>"; };
+		F8A44CA91DC581010027EC46 /* 33.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 33.wav; sourceTree = "<group>"; };
+		F8A44CAA1DC581010027EC46 /* 34.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 34.wav; sourceTree = "<group>"; };
+		F8A44CAB1DC581010027EC46 /* 35.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 35.wav; sourceTree = "<group>"; };
+		F8B1B28C1DAE2D0000536D5F /* SwiftChart-0.2.2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SwiftChart-0.2.2"; sourceTree = SOURCE_ROOT; };
+		FEF3594E1DCD714C008849B6 /* gestureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gestureController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80C15B51DADB7C100D90DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80C15F11DADB94D00D90DA8 /* SwiftChart.framework in Frameworks */,
+				F80C15EF1DADB8DD00D90DA8 /* SwiftyJSON.framework in Frameworks */,
+				BD7B781781BA08E6B38EF45F /* Pods_Sensor.framework in Frameworks */,
+				3CD09DD21DD7E15D00BF597D /* SpeechKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80C15CC1DADB7C100D90DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80C15D71DADB7C100D90DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B9D7551D6FD7E4A31FC232C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CD09DD11DD7E15D00BF597D /* SpeechKit.framework */,
+				F80C15F01DADB94D00D90DA8 /* SwiftChart.framework */,
+				F80C15EE1DADB8DD00D90DA8 /* SwiftyJSON.framework */,
+				D6D1A22B66F4F1AA6B2FE079 /* Pods_Sensor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D13E6C078525EF74A65EEEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D7168598EB70B6B0257C84D /* Pods-Sensor.debug.xcconfig */,
+				7B055930E9684F155E2D5190 /* Pods-Sensor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F80C15AF1DADB7C100D90DA8 = {
+			isa = PBXGroup;
+			children = (
+				3C9535201DD7F88700C6F20D /* Alert.swift */,
+				3C3F8B2F1DD59034005FF52B /* Music.swift */,
+				3C3F8B301DD59034005FF52B /* Music+CoreDataProperties.swift */,
+				F80C15BA1DADB7C100D90DA8 /* Sensor */,
+				F80C15D21DADB7C100D90DA8 /* SensorTests */,
+				F80C15DD1DADB7C100D90DA8 /* SensorUITests */,
+				F80C15B91DADB7C100D90DA8 /* Products */,
+				9D13E6C078525EF74A65EEEA /* Pods */,
+				6B9D7551D6FD7E4A31FC232C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F80C15B91DADB7C100D90DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80C15B81DADB7C100D90DA8 /* Sensor.app */,
+				F80C15CF1DADB7C100D90DA8 /* SensorTests.xctest */,
+				F80C15DA1DADB7C100D90DA8 /* SensorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80C15BA1DADB7C100D90DA8 /* Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				F8B1B28C1DAE2D0000536D5F /* SwiftChart-0.2.2 */,
+				F80C15EC1DADB7D900D90DA8 /* Podfile */,
+				F80C15BB1DADB7C100D90DA8 /* AppDelegate.swift */,
+				F80C15BF1DADB7C100D90DA8 /* Main.storyboard */,
+				F80C15C51DADB7C100D90DA8 /* Assets.xcassets */,
+				F8A44C9D1DC581010027EC46 /* 11.wav */,
+				F8A44C9E1DC581010027EC46 /* 12.wav */,
+				F8A44C9F1DC581010027EC46 /* 13.wav */,
+				F8A44CA01DC581010027EC46 /* 14.wav */,
+				F8A44CA11DC581010027EC46 /* 15.wav */,
+				F8A44CA21DC581010027EC46 /* 21.wav */,
+				F8A44CA31DC581010027EC46 /* 22.wav */,
+				F8A44CA41DC581010027EC46 /* 23.wav */,
+				F8A44CA51DC581010027EC46 /* 24.wav */,
+				F8A44CA61DC581010027EC46 /* 25.wav */,
+				F8A44CA71DC581010027EC46 /* 31.wav */,
+				F8A44CA81DC581010027EC46 /* 32.wav */,
+				F8A44CA91DC581010027EC46 /* 33.wav */,
+				F8A44CAA1DC581010027EC46 /* 34.wav */,
+				F8A44CAB1DC581010027EC46 /* 35.wav */,
+				F80C15C71DADB7C100D90DA8 /* LaunchScreen.storyboard */,
+				F80C15CA1DADB7C100D90DA8 /* Info.plist */,
+				F80C15F21DADBA5000D90DA8 /* ColorViewController.swift */,
+				FEF3594E1DCD714C008849B6 /* gestureController.swift */,
+				3CFAA3D61DD29F0E00E641BB /* StartViewController.swift */,
+				3CFAA3D81DD2A27E00E641BB /* Wave.swift */,
+				3C34F2981DD566E000891910 /* StoredMusic.xcdatamodeld */,
+				3C34F29B1DD578BE00891910 /* HomeViewController.swift */,
+				3C34F29D1DD5799000891910 /* TableViewController.swift */,
+				3C34F29F1DD579B300891910 /* TestViewController.swift */,
+				3C3F8B331DD59876005FF52B /* TableViewCell.swift */,
+				3CF0B3341DD5C72800C1FEE9 /* TrygetViewController.swift */,
+			);
+			path = Sensor;
+			sourceTree = "<group>";
+		};
+		F80C15D21DADB7C100D90DA8 /* SensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F80C15D31DADB7C100D90DA8 /* SensorTests.swift */,
+				F80C15D51DADB7C100D90DA8 /* Info.plist */,
+			);
+			path = SensorTests;
+			sourceTree = "<group>";
+		};
+		F80C15DD1DADB7C100D90DA8 /* SensorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F80C15DE1DADB7C100D90DA8 /* SensorUITests.swift */,
+				F80C15E01DADB7C100D90DA8 /* Info.plist */,
+			);
+			path = SensorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80C15B71DADB7C100D90DA8 /* Sensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80C15E31DADB7C100D90DA8 /* Build configuration list for PBXNativeTarget "Sensor" */;
+			buildPhases = (
+				678AAE0D9FABA7B66A29DA5C /* [CP] Check Pods Manifest.lock */,
+				F80C15B41DADB7C100D90DA8 /* Sources */,
+				F80C15B51DADB7C100D90DA8 /* Frameworks */,
+				F80C15B61DADB7C100D90DA8 /* Resources */,
+				D9683CE5FB502BE4DCCCF798 /* [CP] Embed Pods Frameworks */,
+				9760B2C44D050CDE87F6F4DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sensor;
+			productName = Sensor;
+			productReference = F80C15B81DADB7C100D90DA8 /* Sensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F80C15CE1DADB7C100D90DA8 /* SensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80C15E61DADB7C100D90DA8 /* Build configuration list for PBXNativeTarget "SensorTests" */;
+			buildPhases = (
+				F80C15CB1DADB7C100D90DA8 /* Sources */,
+				F80C15CC1DADB7C100D90DA8 /* Frameworks */,
+				F80C15CD1DADB7C100D90DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80C15D11DADB7C100D90DA8 /* PBXTargetDependency */,
+			);
+			name = SensorTests;
+			productName = SensorTests;
+			productReference = F80C15CF1DADB7C100D90DA8 /* SensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F80C15D91DADB7C100D90DA8 /* SensorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80C15E91DADB7C100D90DA8 /* Build configuration list for PBXNativeTarget "SensorUITests" */;
+			buildPhases = (
+				F80C15D61DADB7C100D90DA8 /* Sources */,
+				F80C15D71DADB7C100D90DA8 /* Frameworks */,
+				F80C15D81DADB7C100D90DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80C15DC1DADB7C100D90DA8 /* PBXTargetDependency */,
+			);
+			name = SensorUITests;
+			productName = SensorUITests;
+			productReference = F80C15DA1DADB7C100D90DA8 /* SensorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80C15B01DADB7C100D90DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = youbing.song;
+				TargetAttributes = {
+					F80C15B71DADB7C100D90DA8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VAS9S933TM;
+					};
+					F80C15CE1DADB7C100D90DA8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VAS9S933TM;
+						TestTargetID = F80C15B71DADB7C100D90DA8;
+					};
+					F80C15D91DADB7C100D90DA8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VAS9S933TM;
+						TestTargetID = F80C15B71DADB7C100D90DA8;
+					};
+				};
+			};
+			buildConfigurationList = F80C15B31DADB7C100D90DA8 /* Build configuration list for PBXProject "Sensor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F80C15AF1DADB7C100D90DA8;
+			productRefGroup = F80C15B91DADB7C100D90DA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80C15B71DADB7C100D90DA8 /* Sensor */,
+				F80C15CE1DADB7C100D90DA8 /* SensorTests */,
+				F80C15D91DADB7C100D90DA8 /* SensorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80C15B61DADB7C100D90DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A44CB81DC581010027EC46 /* 33.wav in Resources */,
+				F8A44CB11DC581010027EC46 /* 21.wav in Resources */,
+				F8A44CAE1DC581010027EC46 /* 13.wav in Resources */,
+				F8A44CAD1DC581010027EC46 /* 12.wav in Resources */,
+				F8B1B28D1DAE2D0000536D5F /* SwiftChart-0.2.2 in Resources */,
+				F8A44CB01DC581010027EC46 /* 15.wav in Resources */,
+				F8A44CB21DC581010027EC46 /* 22.wav in Resources */,
+				F8A44CAF1DC581010027EC46 /* 14.wav in Resources */,
+				F8A44CB51DC581010027EC46 /* 25.wav in Resources */,
+				F8A44CBA1DC581010027EC46 /* 35.wav in Resources */,
+				F8A44CB41DC581010027EC46 /* 24.wav in Resources */,
+				F8A44CB61DC581010027EC46 /* 31.wav in Resources */,
+				F80C15C91DADB7C100D90DA8 /* LaunchScreen.storyboard in Resources */,
+				F8A44CB91DC581010027EC46 /* 34.wav in Resources */,
+				F8A44CB31DC581010027EC46 /* 23.wav in Resources */,
+				F8A44CAC1DC581010027EC46 /* 11.wav in Resources */,
+				F8A44CB71DC581010027EC46 /* 32.wav in Resources */,
+				F80C15C61DADB7C100D90DA8 /* Assets.xcassets in Resources */,
+				F80C15ED1DADB7D900D90DA8 /* Podfile in Resources */,
+				F80C15C11DADB7C100D90DA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80C15CD1DADB7C100D90DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80C15D81DADB7C100D90DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		678AAE0D9FABA7B66A29DA5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9760B2C44D050CDE87F6F4DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sensor/Pods-Sensor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9683CE5FB502BE4DCCCF798 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sensor/Pods-Sensor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80C15B41DADB7C100D90DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34F2A01DD579B300891910 /* TestViewController.swift in Sources */,
+				3CFAA3D91DD2A27E00E641BB /* Wave.swift in Sources */,
+				3CFAA3D71DD29F0E00E641BB /* StartViewController.swift in Sources */,
+				F80C15BC1DADB7C100D90DA8 /* AppDelegate.swift in Sources */,
+				3C34F29C1DD578BE00891910 /* HomeViewController.swift in Sources */,
+				FEF3594F1DCD714C008849B6 /* gestureController.swift in Sources */,
+				3C9535211DD7F88700C6F20D /* Alert.swift in Sources */,
+				F80C15F31DADBA5000D90DA8 /* ColorViewController.swift in Sources */,
+				3C3F8B311DD59034005FF52B /* Music.swift in Sources */,
+				3CF0B3351DD5C72800C1FEE9 /* TrygetViewController.swift in Sources */,
+				3C34F29E1DD5799000891910 /* TableViewController.swift in Sources */,
+				3C3F8B341DD59876005FF52B /* TableViewCell.swift in Sources */,
+				3C3F8B321DD59034005FF52B /* Music+CoreDataProperties.swift in Sources */,
+				3C34F29A1DD566E000891910 /* StoredMusic.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80C15CB1DADB7C100D90DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80C15D41DADB7C100D90DA8 /* SensorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80C15D61DADB7C100D90DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80C15DF1DADB7C100D90DA8 /* SensorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F80C15D11DADB7C100D90DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80C15B71DADB7C100D90DA8 /* Sensor */;
+			targetProxy = F80C15D01DADB7C100D90DA8 /* PBXContainerItemProxy */;
+		};
+		F80C15DC1DADB7C100D90DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80C15B71DADB7C100D90DA8 /* Sensor */;
+			targetProxy = F80C15DB1DADB7C100D90DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F80C15BF1DADB7C100D90DA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80C15C01DADB7C100D90DA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F80C15C71DADB7C100D90DA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80C15C81DADB7C100D90DA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F80C15E11DADB7C100D90DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F80C15E21DADB7C100D90DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F80C15E41DADB7C100D90DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7168598EB70B6B0257C84D /* Pods-Sensor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Sensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monash.edu.Sensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F80C15E51DADB7C100D90DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B055930E9684F155E2D5190 /* Pods-Sensor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Sensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monash.edu.Sensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F80C15E71DADB7C100D90DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monash.edu.SensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sensor.app/Sensor";
+			};
+			name = Debug;
+		};
+		F80C15E81DADB7C100D90DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monash.edu.SensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sensor.app/Sensor";
+			};
+			name = Release;
+		};
+		F80C15EA1DADB7C100D90DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monash.edu.SensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sensor;
+			};
+			name = Debug;
+		};
+		F80C15EB1DADB7C100D90DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monash.edu.SensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sensor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80C15B31DADB7C100D90DA8 /* Build configuration list for PBXProject "Sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80C15E11DADB7C100D90DA8 /* Debug */,
+				F80C15E21DADB7C100D90DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80C15E31DADB7C100D90DA8 /* Build configuration list for PBXNativeTarget "Sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80C15E41DADB7C100D90DA8 /* Debug */,
+				F80C15E51DADB7C100D90DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80C15E61DADB7C100D90DA8 /* Build configuration list for PBXNativeTarget "SensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80C15E71DADB7C100D90DA8 /* Debug */,
+				F80C15E81DADB7C100D90DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80C15E91DADB7C100D90DA8 /* Build configuration list for PBXNativeTarget "SensorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80C15EA1DADB7C100D90DA8 /* Debug */,
+				F80C15EB1DADB7C100D90DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C34F2981DD566E000891910 /* StoredMusic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C34F2991DD566E000891910 /* StoredMusic.xcdatamodel */,
+			);
+			currentVersion = 3C34F2991DD566E000891910 /* StoredMusic.xcdatamodel */;
+			path = StoredMusic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F80C15B01DADB7C100D90DA8 /* Project object */;
+}
